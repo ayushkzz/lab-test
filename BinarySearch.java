@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BinarySearch{ 
+public class BinarySearch { 
   public static int binarySearch(int arr[], int key){ 
     int start = 0; 
     int end = arr.length - 1;
@@ -26,5 +26,6 @@ public class BinarySearch{
     }
     else {
       System.out.println("Key was not found\n");
+    }
   }
 }
